@@ -1,0 +1,34 @@
+service: serverless-stages
+
+frameworkVersion: ">=1.1.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: prod
+  region: eu-west-1
+
+functions:  
+  dev_isr_fetch_mqa_active_alarms_per_site:
+    name: dev_isr_fetch_mqa_active_alarms_per_site
+    handler: index.handler
+    package:
+        individually: true
+        exclude:
+            - serverless.yml
+            - buildspec.yml
+            - '**/*'
+        include:
+            - dev_isr_fetch_mqa_active_alarms_per_site/test/**
+            - dev_isr_fetch_mqa_active_alarms_per_site/**
+    memorySize: 128
+    description: This lambda is used to get user setting parameters for a particular user...copied by data
+  lz_isr_fetch_user_data_function03:
+    name: lz_isr_fetch_user_data_function03
+    handler: index.handler
+    package:
+      include:
+        - lz_isr_fetch_user_data_function03/**
+        - lz_isr_fetch_user_data_function03/test/**
+    memorySize: 128
+    description: This lambda is used to get user setting parameters for a particular user...copied by lz_isr_fetch_user_data_function03    
