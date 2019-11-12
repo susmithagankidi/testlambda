@@ -1,0 +1,22 @@
+{
+  "name": "dev_isr_fetch_mqa_active_alarms_per_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mocha": "^6.2.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.472.0",
+    "chai": "^4.2.0",
+    "sinon": "^7.3.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
