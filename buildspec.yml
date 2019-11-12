@@ -19,7 +19,7 @@ phases:
     commands:
       - echo Build completed on `date`
       - sls config credentials --provider aws --key $KEY --secret $SECRET
-      - sls deploy --region eu-west-1 --verbose
+      - sls deploy --region us-east-1 --verbose
       - echo Build completed
 
 artifacts:
