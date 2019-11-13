@@ -14,6 +14,7 @@ phases:
     commands:
       - echo Build started on `date`
       - pwd
+      - ls -la
       - npm test
       - rm -rf node_modules
   post_build:
