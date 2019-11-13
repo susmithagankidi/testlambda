@@ -15,6 +15,9 @@ phases:
       - echo Build started on `date`
       - pwd
       - ls -la
+      - cd dev_isr_fetch_mqa_active_alarms_per_site
+      - npm test
+      - cd ../lz_isr_fetch_user_data_function04
       - npm test
       - rm -rf node_modules
   post_build:
