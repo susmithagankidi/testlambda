@@ -17,6 +17,6 @@
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
+  "author": "test",
   "license": "ISC"
 }
