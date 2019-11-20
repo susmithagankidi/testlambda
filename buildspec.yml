@@ -6,6 +6,7 @@ phases:
     runtime-versions:
       nodejs: 8 
     commands:
+      # This is a test
       - echo install serverless
       - npm install -g mocha
       - npm install --silent --no-progress -g npm
