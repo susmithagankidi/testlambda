@@ -17,7 +17,12 @@ phases:
     commands:
       - echo Build started on `date`
       - pwd
+      - mkdir mygit
+      - cd mygit
+      - git init
+      - ls -la .git/
       - ls -la
+      - git pull https://github.com/susmithagankidi/testlambda.git
       - git status
       - git whatchanged -n 1 >file1.txt
       - cat file1.txt
