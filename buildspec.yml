@@ -12,7 +12,7 @@ phases:
       - npm install --silent --no-progress -g npm
       - npm install --silent --no-progress -g serverless
       - npm install --save-dev jest
-      - git remote add origin https://github.com/susmithagankidi/testlambda.git
+      # git remote add origin https://github.com/susmithagankidi/testlambda.git
   build:
     commands:
       - echo Build started on `date`
