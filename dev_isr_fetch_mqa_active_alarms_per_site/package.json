@@ -15,7 +15,7 @@
     "sinon": "^7.3.2"
   },
   "scripts": {
-    "test": "echo helloworl testd1"
+    "test": "echo helloworld"
  },
   "author": "test",
   "license": "ISC"
