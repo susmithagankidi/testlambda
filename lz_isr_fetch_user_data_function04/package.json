@@ -13,7 +13,7 @@
     "sinon": "^7.3.2"
   },
   "scripts": {
-    "test": "this is a test11"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC"
