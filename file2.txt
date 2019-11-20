@@ -1,8 +1,0 @@
-commit 56fb2354e19e9b1b34226a172a955f3931accffa
-Author: susmithagankidi <gankidisusmitha@gmail.com>
-Date:   Wed Nov 20 14:18:39 2019 -0500
-
-    last
-
-:100644 100644 4005649 a82eca2 M	buildspec.yml
-:100644 100644 d544cf6 be66c47 M	dev_isr_fetch_mqa_active_alarms_per_site/package.json
