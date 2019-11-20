@@ -18,7 +18,7 @@ phases:
       - echo Build started on `date`
       - pwd
       - ls -la
-      - git whatchanged -n 1
+      - git whatchanged -n 1 >file1.txt
       - sudo sh test.sh
       - rm -rf node_modules
   post_build:
